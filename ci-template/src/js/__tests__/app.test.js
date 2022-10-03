@@ -31,7 +31,7 @@ test("testing order of health", () => {
       result.push(item.health);
    });
 
-   const expected = [100, 80, 10];
+   const expected = [100, 80, 80, 10];
    expect(result).toEqual(expected);
 });
 
